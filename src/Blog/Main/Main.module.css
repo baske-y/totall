@@ -1,0 +1,27 @@
+.main {
+  width: 56%;
+  margin-top: 60px;
+}
+.main h1 {
+  font-size: 1.5rem;
+}
+.main ul {
+  font-size: 0.9rem;
+  display: flex;
+}
+
+.first {
+  margin: 0 30px 0 -39px;
+}
+.main h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  width: 90%;
+  margin: 10px auto;
+}
+.main a {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
