@@ -1,0 +1,13 @@
+.header {
+  
+  /* position: fixed;
+  z-index: 10px; */
+  height: 30%;
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-top: 40px;
+}
+.header p {
+  font-size: 2rem;
+  margin-left: 33px;
+}
