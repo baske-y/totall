@@ -1,0 +1,12 @@
+.profile {
+  width: 45%;
+  margin-right: 50px;
+  text-align: center;
+
+}
+.profile .image {
+  border-radius: 50%;
+}
+.profile h1 {
+  font-size: 1.2rem;
+}
