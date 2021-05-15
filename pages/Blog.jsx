@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Article } from '../src/Blog/Article/Article'
 import { Header } from '../src/Blog/Header/Header'
 import { Main } from '../src/Blog/Main/Main'
+import { Profile } from '../src/Blog/Profile/Profile'
 
 import { Footer } from '../src/components/Footer/Footer'
 
@@ -17,7 +18,11 @@ export default function Home() {
       </Head>
       <Header />
       <Article />
-      <Main />
+      <div className={styles.contents}>
+        <Main />
+        <Profile />
+
+      </div>
       <Footer />
     </div>
   )
