@@ -1,0 +1,10 @@
+.title {
+  border-bottom: 3px solid gray;
+  padding-bottom: 10px;
+}
+.list li{
+  text-align: left;
+  padding: 15px 0 ;
+  margin-left: -30px;
+  border-bottom: 1px solid black;
+}
