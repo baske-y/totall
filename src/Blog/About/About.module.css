@@ -1,0 +1,17 @@
+.about {
+  width: 27%;
+  margin-left: 25px;
+}
+.about h1 {
+  font-size: 1.2rem;
+}
+.about p {
+  font-size: 0.8rem;
+  margin-top: 35px;
+
+}
+.about_list a {
+  margin-left: -40px;
+  font-size: 0.9rem;
+  line-height: 2px;
+}
