@@ -31,7 +31,7 @@ export  function Article() {
         return (
           <div>
             <article>
-            <Image src={item.src} loading="eager" width={350} height={200} />
+            <Image src={item.src} loading="eager" width={450} height={250} />
             <h2>{item.text}</h2>
             <Link href = {item.href}>
               <a >{item.ancoer}</a>

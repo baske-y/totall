@@ -1,14 +1,14 @@
 .article {
   display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
+  margin: 70px 0 0 30px;
 }
 .article h2 {
   font-size: 1.1rem;
-  width: 85%;
+  width: 97%;
 }
 .article a {
   display: block;
-  width: 85%;
+  width: 97%;
   text-align: center;
+  margin-top: 20px;
 }
