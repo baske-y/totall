@@ -13,6 +13,47 @@
   margin: 0 auto;
 }
 
+.progate {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next";
+  min-width: 1280px;
+}
+
+.progate ul {
+  list-style: none;
+}
+
+.progate h1 {
+  font-family: "Avenir Next";
+  font-size: 56px;
+  font-weight: 400;
+  color: #0bc8b6;
+}
+
+
+
+.progate h2 {
+  font-size: 24px;
+  margin-top: 8px;
+  font-family: "Lato";
+  color: #2b546a;
+  font-weight: 300;
+}
+
+.progate h3 {
+  font-size: 20px;
+  border-bottom: 1px solid #e1e6ec;
+  line-height: 64px;
+  margin-bottom: 40px;
+  font-family: "Lato";
+  color: #2b546a;
+  font-weight: 300;
+}
+
+
+
+
 .wrapper {
   display: flex;
   margin: 80px auto;
