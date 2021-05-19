@@ -5,9 +5,8 @@ import { Header } from '../src/Blog/Header/Header'
 import { Main } from '../src/Blog/Main/Main'
 import { Menu } from '../src/Blog/Menu/Menu'
 import { Profile } from '../src/Blog/Profile/Profile'
-
+import { Twitter } from '../src/Blog/Twitter/Twitter'
 import { Footer } from '../src/components/Footer/Footer'
-
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -28,6 +27,7 @@ export default function Home() {
       <div className={styles.footer}>
         <About />
         <Menu />
+        <Twitter />
       </div>
       <Footer />
 
