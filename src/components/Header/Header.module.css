@@ -31,3 +31,22 @@
   margin-right: 30px;
   cursor: pointer;
 }
+@media screen and (max-width: 768px){
+  .header {
+    width: 100%;
+  }
+  .header_side {
+    width: 100%;
+  }
+  .left li {
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0 24px 0 -20px;
+  }
+  .left a {
+    margin-right: 2px;
+  }
+  .right {
+    display: none;
+  }
+}

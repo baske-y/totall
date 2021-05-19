@@ -16,9 +16,9 @@
 }
 
 
-@media (max-width: 600px) {
-  .grid {
+@media (max-width: 768px) {
+  .info {
     width: 100%;
-    flex-direction: column;
+    margin: 0 auto;
   }
 }
