@@ -29,7 +29,7 @@ export  function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/Progate">
             <a>LOOKBOOK </a>
             </Link>
           </li>
