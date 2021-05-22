@@ -11,3 +11,13 @@
   font-size: 2rem;
   margin-left: 33px;
 }
+
+@media (max-width: 768px)  {
+  .header{
+    
+    padding-bottom: 20px;
+  }
+  .header p {
+    margin: 0;
+  }
+}

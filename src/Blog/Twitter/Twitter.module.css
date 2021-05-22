@@ -2,3 +2,10 @@
   font-size: 1.2rem;
   margin-bottom: 30px;
 }
+
+@media (max-width: 768px)  {
+  .twitter {
+    width: 98%;
+    margin-left: 15px;
+  }
+}

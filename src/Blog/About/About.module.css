@@ -10,8 +10,19 @@
   margin-top: 35px;
 
 }
+
 .about_list a {
   margin-left: -40px;
   font-size: 0.9rem;
   line-height: 2px;
+
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 98%;
+    margin: 0 0 0px 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
 }

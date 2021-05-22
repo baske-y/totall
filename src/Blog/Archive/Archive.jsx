@@ -52,7 +52,7 @@ const ITEMS = [
 ]
 export function Archive () {
   return (
-   <div>
+   <div className={styles.archive}>
      <h1 className={styles.title}>Archive</h1>
      {ITEMS.map(item => {
        return(

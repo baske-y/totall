@@ -1,3 +1,8 @@
 .ranking {
   margin-top: 40px;
 }
+@media (max-width: 768px)  {
+  .ranking {
+    margin: 60px 0;
+  }
+}

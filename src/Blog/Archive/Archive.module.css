@@ -8,3 +8,21 @@
   margin-left: -30px;
   border-bottom: 1px solid black;
 }
+@media (max-width: 768px)  {
+  .archive {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .title {
+    margin-top: 40px;
+    border-bottom: none;
+  }
+  .list li {
+    width: 100%;
+    
+  }
+  .list a {
+    margin-left: 20px;
+    display: block;
+  }
+}
