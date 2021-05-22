@@ -56,7 +56,7 @@ export function Archive () {
      <h1 className={styles.title}>Archive</h1>
      {ITEMS.map(item => {
        return(
-         <ul className={styles.list}>
+         <ul className={styles.list} key={item}>
            <li>
              <Link href={item.src}>
               <a>{item.day}</a>

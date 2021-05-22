@@ -33,7 +33,7 @@ export  function Menu() {
       <h1>MENU</h1>
       {ITEMS.map(item => {
         return (
-          <div className={styles.menu_list}>
+          <div className={styles.menu_list} key={item}>
 
             <Link href = {item.href}>
               <a >{item.list}</a>

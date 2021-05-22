@@ -23,7 +23,7 @@ export  function Ranking() {
     <div className={styles.ranking}>
       {ITEMS.map(item => {
         return (
-          <div>
+          <div key={item}>
             <h1>{item.ranking}</h1>
             <Image src ={item.src} loading="eager" className={styles.image} width={300} height={200}/>
             <p>{item.text}</p>

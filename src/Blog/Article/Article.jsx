@@ -29,7 +29,7 @@ export  function Article() {
     <div className={styles.article}>
       {ITEMS.map(item => {
         return (
-          <div>
+          <div key={item}>
             <article>
             <Image src={item.src} loading="eager" width={450} height={250} />
             <h2>{item.text}</h2>

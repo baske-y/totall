@@ -24,7 +24,7 @@ export  function About() {
         </p>
       {ITEMS.map(item => {
         return(
-          <div className={styles.about_list}>
+          <div className={styles.about_list} key={item}>
             <ul>
               <li>
                 <Link href={item.src}>

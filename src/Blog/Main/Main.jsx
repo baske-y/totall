@@ -40,7 +40,7 @@ export  function Main() {
     <div className={styles.grid}>
       {ITEMS.map(item => {
         return (
-          <div className={styles.main}>
+          <div className={styles.main} key={item}>
             <h1>{item.title}</h1>
             <ul>
               <li className={styles.first}>
