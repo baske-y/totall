@@ -1,0 +1,41 @@
+.contact {
+  width: 72%;
+  margin: 0 auto;
+  position: fixed;
+  position: relative;
+  padding-bottom: 190px;
+}
+.contact h2 {
+  border-bottom: 1px solid #8491A4;
+  padding-bottom: 20px;
+}
+.contact p {
+  font-size: 1.2rem;
+  color: #8491A4;
+}
+.text {
+  width: 43%;
+  height: 45px;
+}
+.submit {
+  width: 20%;
+  height: 55px;
+  margin-top: 200px;
+  position: absolute;
+  top: 300px;
+  left: 1px;
+}
+
+@media (max-width: 768px)  {
+  .article {
+    display: block;
+    width: 95%;
+    margin: 30px auto;
+  }
+  .article a {
+    
+    border-bottom: 2px solid black;
+    width: 26%;
+    margin: 30px auto;
+  }
+}

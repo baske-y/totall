@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../Main/Main.module.css'
 import Lesson from "../Lesson/Lesson"
+import { Contact } from '../Contact/Contact';
 
 const lessonList = [
   {
@@ -45,6 +46,7 @@ export  function Main() {
             })}
           </div>
         </div>
+          <Contact />
       </div>
   )
 }
