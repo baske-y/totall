@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../Main/Main.module.css'
 import Lesson from "../Lesson/Lesson"
-import ContactForm, { Contact } from '../Contact/Contact';
+import { Contact } from '../Contact/Contact';
+
 
 const lessonList = [
   {
@@ -46,7 +47,7 @@ export  function Main() {
             })}
           </div>
         </div>
-          <ContactForm />
+          <Contact />
       </div>
   )
 }
