@@ -72,6 +72,16 @@
   margin-top: 20px;
   padding: 60px 0;
 }
+
+.contact {
+  height: 100%;
+  max-width: 100%;
+  padding: 35px 20px;
+  margin: 0 auto;
+  background-color: #FEFBEF;
+}
+
+
 @media (max-width: 768px) {
  .wrapper {
    display: block;
