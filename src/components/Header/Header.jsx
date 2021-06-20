@@ -1,47 +1,69 @@
 import Link from "next/link";
 import styles from './Header.module.css'
 
+const Left_List = [
+ {
+  href:"/",
+  title: "ALL",
+},
+ {
+  href:"/",
+  title: "NEW",
+},
+ {
+  href:"/",
+  title: "CATEGORY",
+},
+ {
+  href:"/Progate",
+  title: "LOOKBOOK",
+},
+ {
+  href:"/Blog",
+  title: "BLOG",
+},
 
+
+]
+
+const Right_List = [
+  {
+    title: "LOGIN",
+    href:"/Menu",
+  },
+  {
+    title: "CONTACT",
+    href:"/Menu",
+  }
+]
 export  function Header() {
   return (
     <div className={styles.header}>
       <h1>TOTALLY</h1>
       <div className={styles.header_side}>
         <ul className={styles.left}>
-          <li>
-            <Link href="/">
-            <a>ALL </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-            <a>NEW</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-            <a>VINTAGE </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-            <a>CATEGORY </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/Progate">
-            <a>LOOKBOOK </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/Blog">
-            <a>BLOG </a>
-            </Link>
-          </li>
+        {Left_List.map((item) => {
+            return(
+              <li key={item.title}>
+                <Link href={item.href}>
+                <a>{item.title} </a>
+                </Link>
+              </li>
+              
+            )
+          })}
+          
         </ul>
         <ul className={styles.right}>
-          <li><a>LOGIN </a></li>
-          <li><a>CONTACT </a></li>
+          {Right_List.map((item) => {
+            return(
+              <li key={item.title}>
+                <Link href={item.href}>
+                <a>{item.title}</a> 
+                </Link>
+              </li>
+            )
+          })}
         </ul>
 
       </div>

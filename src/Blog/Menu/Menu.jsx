@@ -6,7 +6,7 @@ import Image from 'next/image'
 const ITEMS = [
   {
     list: "NEW",
-    href:"#"
+    href:"/"
   },
   {
     list: "CATEGORY",
@@ -22,7 +22,7 @@ const ITEMS = [
   },
   {
     list: "Q&A",
-    href:"#"
+    href:"/Menu"
   },
   
   
@@ -33,7 +33,7 @@ export  function Menu() {
       <h1>MENU</h1>
       {ITEMS.map(item => {
         return (
-          <div className={styles.menu_list} key={item}>
+          <div className={styles.menu_list} key={item.list}>
 
             <Link href = {item.href}>
               <a >{item.list}</a>

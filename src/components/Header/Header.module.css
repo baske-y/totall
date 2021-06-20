@@ -40,11 +40,11 @@
   }
   .left li {
     font-size: 0.8rem;
-    width: 100%;
-    margin: 0 24px 0 -20px;
+    
+    margin-left:5px;
   }
   .left a {
-    margin-right: 2px;
+    margin-right: 6px;
   }
   .right {
     display: none;

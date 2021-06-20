@@ -5,7 +5,7 @@ import styles from '../Footer/Footer.module.css'
 const ITEMS = [
   {
     list:"会社概要",
-    href:"/Menu"
+    href:"/"
   },
   {
     list:"採用",
@@ -13,7 +13,7 @@ const ITEMS = [
   },
   {
     list:"お問い合わせ",
-    href:"/Menu"
+    href:"/"
   },
 
 ]
@@ -27,7 +27,7 @@ export  function Footer() {
       </div>
       {ITEMS.map(item => {
         return(
-         <ul className={styles.footer_list} key={item.list}>
+         <ul className={styles.footer_list}>
             <Link href={item.href}>
               <a>{item.list}</a>
             </Link>

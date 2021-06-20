@@ -12,7 +12,7 @@ const ITEMS = [
   },
   {
     text:"お問い合わせ",
-    src:"#"
+    src:"/Menu"
   }
 ]
 export  function About() {
@@ -24,7 +24,7 @@ export  function About() {
         </p>
       {ITEMS.map(item => {
         return(
-          <div className={styles.about_list} key={item}>
+          <div className={styles.about_list} key={item.text}>
             <ul>
               <li>
                 <Link href={item.src}>

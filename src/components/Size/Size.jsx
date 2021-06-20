@@ -39,7 +39,7 @@ export  function Size() {
         </thead>
       {ITEMS.map(item => {
        return(
-         <tr>
+         <tr key={item.color}>
            <td>{item.color}</td>
            <td>{item.size}</td>
            <td>
@@ -67,7 +67,7 @@ export  function Size() {
         <tbody>
           {ITEMS.map(item => {
             return(
-              <tr>
+              <tr key={item.color}>
                 <th>{item.size}</th>
                 <td>{item.chest}</td>
                 <td>{item.weist}</td>
