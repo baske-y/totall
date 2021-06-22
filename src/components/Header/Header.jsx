@@ -15,7 +15,7 @@ const Left_List = [
   title: "CATEGORY",
 },
  {
-  href:"/Progate",
+  href:"/",
   title: "LOOKBOOK",
 },
  {
